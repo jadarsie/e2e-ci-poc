@@ -24,9 +24,9 @@ If you do not have `make`
 ./scripts/run-local.sh env/sample.env
 ```
 
-## Run on DVM
+## Run on a Linux DVM
 
-Create a Linux VM and make sure your input `.env` sets variable `DVM_HOST`.
+Create a Linux VM (DVM) and make sure your input `.env` sets variable `DVM_HOST`.
 
 ```bash
 make setup-dvm run-dvm results INPUT=env/sample.env
